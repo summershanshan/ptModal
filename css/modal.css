@@ -1,0 +1,113 @@
+body{
+    font-size:14px;
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+}
+div,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+button,input,textarea{
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border:none
+}
+input:focus{
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border:none;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius:5px;
+    background-color:#cc0000;
+    cursor:pointer;
+    color:#eee;
+    font-size:15px;
+    -webkit-transition:opacity 0.2s linear;
+    -moz-transition:opacity 0.2s linear;
+    transition:opacity 0.2s linear;
+}
+.btn.btn-info{
+    background-color:#00d6b2;
+}
+.btn.btn-error{
+    background-color:#cc0000;
+}
+.btn.btn-cancel{
+    background-color:#db5726;
+}
+.btn.btn-default{
+    background-color:#2EBE21;
+}
+.btn:hover{
+    opacity:0.8;
+    color:#fff;
+}
+.pt-mb10{
+    margin-bottom:10px;
+}
+.pt-transition{
+   -webkit-transition:0.3s ease-out;
+   -moz-transition:0.3s ease-out;
+    transition:0.3s ease-out;
+}
+
+.mask{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:#333;
+    z-index:999;
+    /*filter:alpha(opacity=0);*/
+    /*opacity:0;*/
+}
+.modal{
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    display:none;
+    z-index:1000;
+}
+.modal.in{
+    display:block;
+}
+.modal .modalCon{
+    width: 500px;
+    padding:20px;
+    background-color:#eee;
+    box-shadow:2px 2px 2px #999;
+}
+.modal .modal-title{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #999;
+    color:#282828;
+    font-size:16px;
+    font-weight:400;
+}
+.modal .modal-body{
+    padding:20px 0;
+    line-height:20px;
+}
+.modal .modal-body .modal-inp{
+    display:block;
+    width: 300px;
+    height: 30px;
+    border:1px solid #999;
+    padding-left:10px;
+}
+.modal .modal-footer{
+    text-align:center;
+}
+.modal .modal-footer .btn + .btn{
+    margin-left:20px;
+}

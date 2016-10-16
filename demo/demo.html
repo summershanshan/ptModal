@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dailog</title>
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/animation.css">
+</head>
+<body>
+<button class="btn btn-active pt-scale">旋转弹框</button>
+<button class="btn btn-active pt-bounce">弹跳弹框</button>
+<div class="modal" id="pt-header-bounce-modal" data-backdrop="static">
+    <div class="modalCon animated">
+        <div class="modal-title">
+            <h3>这里是标题部分...Bounce</h3>
+        </div>
+        <div class="modal-body">
+            <p class="pt-mb10">这里是内容部分,输入想说的话...</p>
+            <input type="text" class="modal-inp" placeholder="请输入...">
+        </div>
+        <div class="modal-footer">
+            <input type="button" class="btn btn-default" value="确认" data-dismiss="modal">
+            <input type="button" class="btn btn-cancle" value="取消" data-dismiss="modal">
+        </div>
+    </div>
+</div>
+<div class="modal" id="pt-header-scale-modal">
+    <div class="modalCon animated">
+        <div class="modal-title">
+            <h3>这里是标题部分...Scale</h3>
+        </div>
+        <div class="modal-body">
+            <p class="pt-mb10">这里是内容部分,输入想说的话...</p>
+            <input type="text" class="modal-inp" placeholder="请输入...">
+        </div>
+        <div class="modal-footer">
+            <input type="button" class="btn btn-default" value="确认" data-dismiss="modal">
+            <input type="button" class="btn btn-cancle" value="取消" data-dismiss="modal">
+        </div>
+    </div>
+</div>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../js/modal.js"></script>
+<script>
+    $(".pt-scale").on("click",function(){
+        $("#pt-header-scale-modal").modal({
+            isShow:"show",
+            animationName:"rotateIn",
+            animationOutName:"rotateOut"
+        });
+    });
+    $(".pt-bounce").on("click",function(){
+        $("#pt-header-bounce-modal").modal();
+    });
+</script>
+</body>
+</html>
