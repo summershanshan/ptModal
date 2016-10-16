@@ -52,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="75" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="75" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -177,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ptSwitch" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\dev\nodejs\node.exe" />
@@ -248,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476610090816</updated>
-      <workItem from="1476610092419" duration="3444000" />
+      <workItem from="1476610092419" duration="3894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3444000" />
+    <option name="totallyTimeSpent" value="3894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -311,8 +311,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="75" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="75" />
             <folding />
           </first_editor>
           <second_editor />
