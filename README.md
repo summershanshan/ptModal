@@ -8,8 +8,7 @@ ptModal简介
 
 modal样式：
 ---------
-![modal](https://github.com/summershanshan/ptModal/raw/img/modal.png)
-
+![Image](https://raw.github.com/summershanshan/ptModal/master/ptModal/img/modal.png)
 modal HTML部分代码结构：
 ---------------------
 ```
