@@ -47,3 +47,7 @@ modal HTML部分代码结构：
 1. isShow: 控制模态框是需要显示还是隐藏 可能的值有："show","hide"默认"show"
 2. animationName: 模态框显示时的动画 可能的值有：bounceInDown,scaleIn,rotateIn,默认bounceInDown
 3. animationOutName: 模态框隐藏时的动画 可能的值有：bounceOutUp,scaleOut,rotateOut, 默认bounceOutUp
+
+Copyright and license
+------------------------
+Code copyright 2016 summershanshan. Code released under the MIT license.
